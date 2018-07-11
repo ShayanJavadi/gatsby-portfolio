@@ -12,22 +12,6 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={stoneSpringLogo}
-            colour="#FFFFFF"
-            title="Stone Springs Dentistry Website"
-            link="https://www.stonespringsdentistry.com/"
-            timeperiod="2016"
-            subtitle="Designed and developed a responsive and modern website from scratch as a contractor for Dr. Nikta Marvdashti."
-          />
-          <ExperienceUnit
-            logo={uxutdLogo}
-            colour="#fff"
-            title="UX UTD Website"
-            link="http://uxutd.com/"
-            timeperiod="2017"
-            subtitle="Designed and developed a website for the UX club at UTD from scratch using Javascript (ES6), SCSS, and HTML/CSS."
-          />
-          <ExperienceUnit
             logo={bookeaseLogo}
             colour="#fff"
             title="Bookease"
@@ -36,6 +20,22 @@ class ProjectsSection extends React.Component {
 with their peers. Developed using React Native, Redux, Node.js,
 Express, Sequalize, GraphQL, Heroku, and Firebase."
           />
+          <ExperienceUnit
+            logo={uxutdLogo}
+            colour="#fff"
+            title="UX UTD Website"
+            link="http://uxutd.com/"
+            timeperiod="2017"
+            subtitle="Designed and developed a website for the UX club at UTD from scratch using Javascript (ES6), SCSS, and HTML/CSS."
+          /> 
+          <ExperienceUnit
+            logo={stoneSpringLogo}
+            colour="#FFFFFF"
+            title="Stone Springs Dentistry Website"
+            link="https://www.stonespringsdentistry.com/"
+            timeperiod="2016"
+            subtitle="Designed and developed a responsive and modern website from scratch as a contractor for Dr. Nikta Marvdashti."
+          />          
         </div>
       </Section>
     )

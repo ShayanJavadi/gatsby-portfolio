@@ -15,10 +15,10 @@ class ExperienceSection extends React.Component {
             logo={sabreLogo}
             colour='#E60000'
             title='Sabre'
-            role='Frontend Developer Intern'
+            role='Software Developer Intern'
             link='https://www.sabre.com/'
-            timeperiod='May 2017 - Aug 2017'
-            subtitle="Worked as a frontend dev Sabre's SabreSonic Booking/Check-in software (used by 50+ airlines). I learned the ins and outs of React and Redux during the internship, and the challenges that you face while developing at scale."
+            timeperiod='May 2018 - Present'
+            subtitle="Currently working on creating microservice APIs for Sabre's Ticketing team using Java (8+), and Spring Boot."
           />
           <ExperienceUnit
             logo={githubLogo}
@@ -31,10 +31,10 @@ class ExperienceSection extends React.Component {
                 <span className="github-project-links">
                   <br />
                   <br />
-                  Contributions: 
+                  Contributions:
                   <br /><a href="https://github.com/ascoders/react-native-image-viewer/pull/153" className="repo-name">react-native-image-viewer:</a> <a href="https://github.com/ascoders/react-native-image-viewer/pull/153">#153</a> <a href="https://github.com/ascoders/react-native-image-viewer/pull/154">#154</a>
                   <br /><a href="https://github.com/ascoders/react-native-image-viewer/pull/153" className="repo-name">react-native-material-ui:</a> <a href="https://github.com/xotahal/react-native-material-ui/pull/316">#316</a>
-                  <br /><a href="https://github.com/ascoders/react-native-image-viewer/pull/153" className="repo-name">react-native-material-bottom-navigation:</a> <a href="https://github.com/timomeh/react-native-material-bottom-navigation/pull/70">#70</a> <a href="https://github.com/timomeh/react-native-material-bottom-navigation/pull/71">#71</a> 
+                  <br /><a href="https://github.com/ascoders/react-native-image-viewer/pull/153" className="repo-name">react-native-material-bottom-navigation:</a> <a href="https://github.com/timomeh/react-native-material-bottom-navigation/pull/70">#70</a> <a href="https://github.com/timomeh/react-native-material-bottom-navigation/pull/71">#71</a>
                 </span>
               </span>
             }
@@ -43,10 +43,10 @@ class ExperienceSection extends React.Component {
             logo={sabreLogo}
             colour='#E60000'
             title='Sabre'
-            role='Software Developer Intern'
+            role='Frontend Developer Intern'
             link='https://www.sabre.com/'
-            timeperiod='May 2018 - Present'
-            subtitle="Currently working on creating microservice APIs for Sabre's Ticketing team using Java (8+), and Spring Boot."
+            timeperiod='May 2017 - Aug 2017'
+            subtitle="Worked as a frontend dev Sabre's SabreSonic Booking/Check-in software (used by 50+ airlines). I learned the ins and outs of React and Redux during the internship, and the challenges that you face while developing at scale."
           />
         </div>
       </Section>
