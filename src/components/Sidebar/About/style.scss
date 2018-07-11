@@ -11,14 +11,11 @@ $margin-bottom: 40px;
     max-width: $max-width;
     height: 180px;
     background-size: cover;
-    background-image: url(../../../assets/images/praagya.jpg);
+    background-image: url(../../../assets/images/shayanjavadi.png);
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
     overflow: hidden;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); /* For Webkit browsers */
-    filter: gray; /* For IE 6 - 9 */
     transition: all .6s ease;
     -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
     margin-bottom: $margin-bottom;
@@ -29,6 +26,47 @@ $margin-bottom: 40px;
     }
   }
 
+  .react-logo {
+    top: 4px;
+    right: 1px;
+    position: relative;
+  }
+
+  .redux-icon {
+    top: .5px;
+    right: 2px;
+    position: relative;
+  }
+
+  .graphql-icon {
+    top: 1.3px;
+    left: 3px;
+    position: relative;
+  }
+  
+  .gatsby-icon {
+    top: 1.5px;
+    left: 12px;
+    position: relative;
+  }
+
+  .heart-icon {
+    position: relative;
+  }
+
+  .const {
+    position: relative;
+    top: 5px;
+  }
+
+  .equals {
+    font-size: 12px;
+  }
+
+  .js-logo {
+    position: relative;
+  }
+
   .bio {
     margin-bottom: $margin-bottom;
     max-width: $max-width;
@@ -37,7 +75,6 @@ $margin-bottom: 40px;
 
     .emoji {
       font-size: 1.6rem;
-      padding-top: 30px;
 
       @include media("retina2x") {
         font-size: 2.2rem;
@@ -49,7 +86,6 @@ $margin-bottom: 40px;
     .bio {
       .emoji {
         font-size: 2.0rem;
-        padding-top: 10px;
       }
     }
   }

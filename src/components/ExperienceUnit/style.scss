@@ -20,19 +20,46 @@
   }
   
   .title {
-    padding: 8px 0px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    color: #222;
+    line-height: 2rem;
+    padding-top: 8px;
+    
   }
 
   .time-period {
-    font-size: 1.2rem;
-    line-height: 0.9rem;
-    padding-bottom: 12px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #666;
+  }
+
+  .github-project-links { 
+    a {
+      text-decoration: none; /* no underline */
+      color: #0c58ad;
+
+      &:hover {
+        border-bottom: #0366d6 solid 1px;
+      }
+    }
+
+    .repo-name {
+      color: #888;
+    }
+  }
+
+  .role {
+    font-size: 1.3rem;
+    color: #444;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-top: 3px;
   }
 
   .subtitle {
-    color: $grey-color;
-    font-size: 1.4rem;
+    color: #888;
+    font-size: 1.2rem;
+    padding-top: 5px;
   }
 
   @include media('>=medium', '<large') {

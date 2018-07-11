@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
-import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
-import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import stoneSpringLogo from '../../assets/images/projects/stonespring-logo.png'
+import bookeaseLogo from '../../assets/images/projects/bookease-logo.png'
+import uxutdLogo from '../../assets/images/projects/uxutd-logo.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,31 +12,29 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={stoneSpringLogo}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
-          />
-          <ExperienceUnit
-            logo={spotifyQuizLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
-          />
-          <ExperienceUnit
-            logo={walkthroughViewGif}
-            colour="#312F31"
-            title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
+            title="Stone Springs Dentistry Website"
+            link="https://www.stonespringsdentistry.com/"
             timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            subtitle="Designed and developed a response and modernwebsite from scratch as a contractor for Dr. Nikta Marvdashti."
+          />
+          <ExperienceUnit
+            logo={uxutdLogo}
+            colour="#fff"
+            title="UX UTD Website"
+            link="http://uxutd.com/"
+            timeperiod="2017"
+            subtitle="Designed and developed a website for the UX club at UTD from scratch using Javascript(ES6), SCSS, and HTML/CSS."
+          />
+          <ExperienceUnit
+            logo={bookeaseLogo}
+            colour="#fff"
+            title="Bookease"
+            timeperiod="2017 - Present"
+            subtitle="Bookease is an upcoming React Native mobile app that allows students to seamlessly sell/trade their textbooks
+with their peers. Developed using React Native, Redux, Node.js,
+Express, Sequalize, GraphQL, Heroku, and Firebase."
           />
         </div>
       </Section>
