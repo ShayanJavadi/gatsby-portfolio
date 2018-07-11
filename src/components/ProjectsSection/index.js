@@ -17,7 +17,7 @@ class ProjectsSection extends React.Component {
             title="Stone Springs Dentistry Website"
             link="https://www.stonespringsdentistry.com/"
             timeperiod="2016"
-            subtitle="Designed and developed a response and modernwebsite from scratch as a contractor for Dr. Nikta Marvdashti."
+            subtitle="Designed and developed a responsive and modern website from scratch as a contractor for Dr. Nikta Marvdashti."
           />
           <ExperienceUnit
             logo={uxutdLogo}
@@ -25,7 +25,7 @@ class ProjectsSection extends React.Component {
             title="UX UTD Website"
             link="http://uxutd.com/"
             timeperiod="2017"
-            subtitle="Designed and developed a website for the UX club at UTD from scratch using Javascript(ES6), SCSS, and HTML/CSS."
+            subtitle="Designed and developed a website for the UX club at UTD from scratch using Javascript (ES6), SCSS, and HTML/CSS."
           />
           <ExperienceUnit
             logo={bookeaseLogo}
