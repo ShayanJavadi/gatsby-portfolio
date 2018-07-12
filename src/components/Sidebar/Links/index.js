@@ -24,7 +24,7 @@ class Links extends Component {
             </a>
           </li>
           <li className="icon">
-            <a href="https://drive.google.com/open?id=1XdZkkyyuwrfP320vbZd6UzDU-EWRQeF1" target="_blank">
+            <a href="https://drive.google.com/open?id=1WyNuz1GzuHulrq0Jk-QmdCYpzEsSyiib" target="_blank">
               <i className="fa fa-file-text"></i>
             </a>
           </li>
