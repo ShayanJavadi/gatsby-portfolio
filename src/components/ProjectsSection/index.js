@@ -7,6 +7,7 @@ import bookeaseLogo from '../../assets/images/projects/bookease-logo.png'
 import uxutdLogo from '../../assets/images/projects/uxutd-logo.png'
 
 class ProjectsSection extends React.Component {
+  // TODO: make these use md or json files for the data
   render() {
     return (
       <Section title="Projects">
@@ -15,6 +16,7 @@ class ProjectsSection extends React.Component {
             logo={bookeaseLogo}
             colour="#fff"
             title="Bookease"
+            link="https://github.com/ShayanJavadi/bookease-frontend"
             timeperiod="2017 - Present"
             subtitle="Bookease is an upcoming React Native mobile app that allows students to seamlessly sell/trade their textbooks
 with their peers. Developed using React Native, Redux, Node.js,
