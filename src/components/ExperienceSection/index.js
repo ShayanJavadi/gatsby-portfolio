@@ -4,7 +4,6 @@ import ExperienceUnit from '../ExperienceUnit'
 
 import sabreLogo from '../../assets/images/experience/sabre-logo.png'
 import githubLogo from '../../assets/images/experience/github-logo.png'
-import kayakoLogo from '../../assets/images/experience/kayako-logo-2.jpg'
 
 class ExperienceSection extends React.Component {
   render() {
