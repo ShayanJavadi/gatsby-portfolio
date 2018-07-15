@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import reduxLogo from '../../../assets/redux-logo.svg'
 import gatsbyLogo from '../../../assets/gatsby-logo.png'
-import constHeart from '../../../assets/const.png'
 
 import './style.scss'
 
