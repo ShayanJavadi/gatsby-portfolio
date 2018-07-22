@@ -24,7 +24,7 @@ class ExperienceSection extends React.Component {
             logo={bookeaseLogo}
             colour="#fff"
             title="Bookease"
-            role='Lead React Native Developer'
+            role='Co-founder/Lead React Native Developer'
             link="https://github.com/ShayanJavadi/bookease-frontend"
             timeperiod="2017 - Present"
             subtitle="Bookease is an upcoming React Native mobile app that allows students to seamlessly sell/trade their textbooks
