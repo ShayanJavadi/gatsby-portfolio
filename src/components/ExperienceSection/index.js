@@ -5,6 +5,7 @@ import ExperienceUnit from '../ExperienceUnit'
 import sabreLogo from '../../assets/images/experience/sabre-logo.png'
 import githubLogo from '../../assets/images/experience/github-logo.png'
 import bookeaseLogo from '../../assets/images/projects/bookease-logo.png'
+import sevenElevenLogo from "../../assets/images/experience/7-eleven-logo.png";
 
 class ExperienceSection extends React.Component {
   render() {
@@ -12,13 +13,22 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           <ExperienceUnit
+            logo={sevenElevenLogo}
+            colour='#fff'
+            title='7-Eleven'
+            role='Software Developer'
+            link='https://www.7-eleven.com/'
+            timeperiod='Oct 2018 - Present'
+            subtitle="Worked on 7-Eleven mobile self-checkout web experience using React/Redux. Currently working on migrating 7-eleven.com from Drupal to Next.js + headless CMS (Contentstack)"
+          />
+          <ExperienceUnit
             logo={sabreLogo}
             colour='#E60000'
             title='Sabre'
-            role='Software Developer Intern'
+            role='Software Developer Intern/Associate Software Developer'
             link='https://www.sabre.com/'
-            timeperiod='May 2018 - Present'
-            subtitle="Currently working on creating microservice APIs for Sabre's Ticketing team using Java (8+), and Spring Boot."
+            timeperiod='May 2018 - Oct 2018'
+            subtitle="Worked on creating microservice APIs for Sabre's Ticketing team using Java (8+), and Spring Boot."
           />
           <ExperienceUnit
             logo={bookeaseLogo}
