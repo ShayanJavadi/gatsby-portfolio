@@ -6,13 +6,38 @@ import stoneSpringLogo from '../../assets/images/projects/stonespring-logo.png'
 import githubLogo from '../../assets/images/experience/github-logo.png'
 import animationGuildLogo from '../../assets/images/projects/animation-guild.png'
 import uxutdLogo from '../../assets/images/projects/uxutd-logo.png'
-
+import chord from '../../assets/images/projects/chords.png'
+import solfej from '../../assets/images/projects/solfej.png'
+import scale from '../../assets/images/projects/sacle.png'
 class ProjectsSection extends React.Component {
   // TODO: make these use md or json files for the data
   render() {
     return (
       <Section title="Projects">
         <div className="row">
+                <ExperienceUnit
+                    logo={solfej}
+                    colour='#FFFFFF'
+                    title='Solfej Mobile App'
+                    link='https://www.solfej.io/'
+                    timeperiod='August 2019 - Present'
+                    subtitle="I'm currently working on the best new way to learn music theory and ear training."
+                />
+                <ExperienceUnit
+                    logo={chord}
+                    colour='#FFFFFF'
+                    title='Chord Search'
+                    link='https://www.solfej.io/chords'
+                    timeperiod='Jan 2020 - Present'
+                    subtitle="I'm currently working on creating a chord search engine."
+                /> <ExperienceUnit
+                    logo={scale}
+                    colour='#FFFFFF'
+                    title='Scale Search'
+                    link='https://www.solfej.io/scales'
+                    timeperiod='Jan 2020 - Present'
+                    subtitle="I'm currently working on creating a scale search engine."
+                />
           <ExperienceUnit
             logo={animationGuildLogo}
             colour='#FFFFFF'
