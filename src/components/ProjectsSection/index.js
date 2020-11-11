@@ -15,29 +15,29 @@ class ProjectsSection extends React.Component {
     return (
       <Section title="Projects">
         <div className="row">
-                <ExperienceUnit
-                    logo={solfej}
-                    colour='#FFFFFF'
-                    title='Solfej Mobile App'
-                    link='https://www.solfej.io/'
-                    timeperiod='August 2019 - Present'
-                    subtitle="I'm currently working on the best new way to learn music theory and ear training."
-                />
-                <ExperienceUnit
-                    logo={chord}
-                    colour='#FFFFFF'
-                    title='Chord Search'
-                    link='https://www.solfej.io/chords'
-                    timeperiod='Jan 2020 - Present'
-                    subtitle="I'm currently working on creating a chord search engine."
-                /> <ExperienceUnit
-                    logo={scale}
-                    colour='#FFFFFF'
-                    title='Scale Search'
-                    link='https://www.solfej.io/scales'
-                    timeperiod='Jan 2020 - Present'
-                    subtitle="I'm currently working on creating a scale search engine."
-                />
+            <ExperienceUnit
+                logo={solfej}
+                colour='#FFFFFF'
+                title='Solfej Mobile App'
+                link='https://www.solfej.io/'
+                timeperiod='August 2019 - Present'
+                subtitle="I'm currently working on the best new way to learn music theory and ear training."
+            />
+            <ExperienceUnit
+                logo={chord}
+                colour='#FFFFFF'
+                title='Chord Search'
+                link='https://www.solfej.io/chords'
+                timeperiod='Jan 2020 - Present'
+                subtitle="I'm currently working on creating a chord search engine."
+            /> <ExperienceUnit
+                logo={scale}
+                colour='#FFFFFF'
+                title='Scale Search'
+                link='https://www.solfej.io/scales'
+                timeperiod='Jan 2020 - Present'
+                subtitle="I'm currently working on creating a scale search engine."
+            />
           <ExperienceUnit
             logo={animationGuildLogo}
             colour='#FFFFFF'
