@@ -6,26 +6,36 @@ import sabreLogo from '../../assets/images/experience/sabre-logo.png'
 import githubLogo from '../../assets/images/experience/github-logo.png'
 import bookeaseLogo from '../../assets/images/projects/bookease-logo.png'
 import sevenElevenLogo from "../../assets/images/experience/7-eleven-logo.png";
+import pizzaHutLogo from "../../assets/images/experience/pizzahut.png";
 
 class ExperienceSection extends React.Component {
   render() {
     return (
       <Section title="Experience">
         <div className="row">
+            <ExperienceUnit
+                logo={pizzaHutLogo}
+                colour='#fff'
+                title='Pizza Hut'
+                role='Software Developer II'
+                link='https://www.pizzahut.com/index.php'
+                timeperiod='Aug 2019 - Present'
+                subtitle="Working on the flagship Pizza Hut mobile app using React Native serving 10+ million users."
+            />
           <ExperienceUnit
             logo={sevenElevenLogo}
             colour='#fff'
             title='7-Eleven'
             role='Software Developer'
             link='https://www.7-eleven.com/'
-            timeperiod='Oct 2018 - Present'
+            timeperiod='Oct 2018 - Aug 2019'
             subtitle="Worked on 7-Eleven mobile self-checkout web experience using React/Redux. Currently working on migrating 7-eleven.com from Drupal to Next.js + headless CMS (Contentstack)"
           />
           <ExperienceUnit
             logo={sabreLogo}
             colour='#E60000'
             title='Sabre'
-            role='Software Developer Intern/Associate Software Developer'
+            role='Associate Software Developer'
             link='https://www.sabre.com/'
             timeperiod='May 2018 - Oct 2018'
             subtitle="Worked on creating microservice APIs for Sabre's Ticketing team using Java (8+), and Spring Boot."
